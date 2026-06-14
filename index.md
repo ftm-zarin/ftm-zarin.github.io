@@ -8,9 +8,10 @@ layout: default
 </div>
 
 <style>
+/* Background only behind name and description */
 body > h1,
 body > h3 {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.38);
   width: fit-content;
   max-width: 85%;
   margin-left: auto;
@@ -34,18 +35,15 @@ body > h3 {
   border-radius: 0 0 18px 18px;
 }
 
+/* CV and Life buttons */
 .main-buttons {
-  margin: 28px auto 0 auto;
-  width: fit-content;
+  margin-top: 28px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 14px;
   flex-wrap: wrap;
-
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .main-button {
@@ -66,7 +64,7 @@ body > h3 {
   letter-spacing: 0.08em;
   text-transform: uppercase;
 
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
 }
 
