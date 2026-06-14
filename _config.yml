@@ -3,7 +3,7 @@ remote_theme: epidrome/cover-card@main
 
 # Title and tag line
 title: 'Fatemeh Zarinjouei'
-description: 'I am interested in Applied Cryptography. I enjoy building things, learning deeply, and collecting small moments from life.'
+description: 'I hold a master’s degree in Computer Science from Sharif University of Technology, where my work and interests have led me toward applied cryptography. I enjoy the adventure of research: noticing a problem, following questions, and slowly digging through ideas and related work until something becomes clearer. Outside the academic world, I try to keep a quiet eye on life as it passes; as Khayyam reminds us, to sit by the stream and watch the passing of time. I enjoy hiking, biking, painting, and collecting small moments that make life feel more vivid.'
 
 # Images
 avatar: 'avatar.jpg'
