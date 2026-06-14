@@ -8,30 +8,59 @@ layout: default
 </div>
 
 <style>
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
 
+body {
+  text-align: center;
+}
+
+.page-shell {
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6vh 20px;
+}
+
+/* Avatar like the original template */
 .avatar {
   display: block;
-  width: 220px;
-  height: 220px;
-  margin: 0 auto 28px auto !important;
+  width: 200px;
+  height: 200px;
 
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
 
-  border: 5px solid white;
+  border: 3px solid white;
   box-sizing: border-box;
+
+  margin: 0 auto 28px auto !important;
 }
 
+/* One soft box behind only name + description */
 .title-card {
   width: fit-content;
   max-width: 85vw;
-  margin: 0 auto;
-  padding: 22px 36px;
+
+  margin: 0 auto 22px auto;
+  padding: 22px 34px;
+
   background: rgba(0, 0, 0, 0.42);
-  border-radius: 28px;
+  border-radius: 26px;
+
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
+
   box-sizing: border-box;
   text-align: center;
 }
@@ -56,36 +85,11 @@ layout: default
   line-height: 1.35;
 }
 
-  
-/* Background behind title and description */
-/* h1:first-of-type,
-h3:first-of-type {
-  display: inline-block !important;
-  background: rgba(0, 0, 0, 0.45) !important;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 85%;
-  backdrop-filter: blur(4px);
-}
-
-h1:first-of-type {
-  padding-top: 12px;
-  padding-bottom: 4px;
-  margin-bottom: 0;
-  border-radius: 18px 18px 0 0;
-}
-
-h3:first-of-type {
-  padding-top: 4px;
-  padding-bottom: 12px;
-  margin-top: 0;
-  border-radius: 0 0 18px 18px;
-} */
-
 /* CV and Life buttons */
 .main-buttons {
-  margin-top: 28px;
+  margin-top: 24px;
   width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
