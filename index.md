@@ -139,4 +139,34 @@ body {
   background: rgba(255, 255, 255, 0.18);
   transition: 300ms;
 }
+  /* Force visual order: title → buttons → icons */
+body,
+.page-shell {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* Avatar first */
+.avatar {
+  order: 1;
+}
+
+/* Name + description second */
+.title-card {
+  order: 2;
+}
+
+/* CV / Personal buttons third */
+.main-buttons {
+  order: 3;
+  margin-top: 24px;
+  margin-bottom: 26px;
+}
+
+/* GitHub / email icons fourth */
+body > ul,
+.page-shell > ul {
+  order: 4;
+}
 </style>
