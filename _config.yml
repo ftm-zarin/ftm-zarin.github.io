@@ -2,23 +2,26 @@
 remote_theme: epidrome/cover-card@main
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: 'Fatemeh Zarinjouei'
+description: 'I am interested in Applied Cryptography. I enjoy building things, learning deeply, and collecting small moments from life.'
 
 # Images
 avatar: 'avatar.jpg'
 background: 'background.jpg'
 favicon: 'favicon.ico'
 
+cv: "ftm-zarin.github.io/assets/cv/your-name-cv.pdf"
+life: "ftm-zarinE.github.io/life/"
+
 # Online profiles
 #dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
+# facebook: 'myfacebook'
+# twitter: 'mytwitter'
 #linkedin: 'mylinkedin'
-instagram: 'myinsta'
+# instagram: 'myinsta'
 #pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
+# youtube: 'myyoutube'
+github-user: 'ftm-zarin'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -28,15 +31,15 @@ github-user: 'mygithub'
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+# tumblr: 'mytumblr'
+# weibo: 'myweibo'
+# vk: 'myvk'
+# blog_url: 'myblog.blog.com'
+email: 'ftm.zariin@gmail.com'
+# messenger: 'myfbchat'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
-
+# social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [cv, life, github-user, email]
 # Yaml manifest of supported social links
 # Requirements:
 # `name`
@@ -57,6 +60,17 @@ social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinteres
 #     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
 #     - **optional**
 social-links:
+
+  - name: cv
+    url-scheme: "https://"
+    url-pattern: "USERNAME"
+    icon-class: far fa-2x fa-file-pdf
+
+  - name: life
+    url-scheme: "https://"
+    url-pattern: "USERNAME"
+    icon-class: fas fa-2x fa-heart
+
   - name: facebook
     url-pattern: facebook.com/__USERNAME__
     icon-class: fab fa-2x fa-facebook-f
