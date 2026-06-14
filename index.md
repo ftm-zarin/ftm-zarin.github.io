@@ -9,9 +9,47 @@ layout: default
 
 <style>
 
+  .avatar {
+  display: block;
+  margin: 0 auto 28px auto !important;
+}
+
+.title-card {
+  width: fit-content;
+  max-width: 85vw;
+  margin: 0 auto;
+  padding: 22px 36px;
+  background: rgba(0, 0, 0, 0.42);
+  border-radius: 28px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.title-card h1,
+.title-card h3 {
+  background: transparent !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.title-card h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.title-card h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.35;
+}
+
   
 /* Background behind title and description */
-h1:first-of-type,
+/* h1:first-of-type,
 h3:first-of-type {
   display: inline-block !important;
   background: rgba(0, 0, 0, 0.45) !important;
@@ -33,7 +71,7 @@ h3:first-of-type {
   padding-bottom: 12px;
   margin-top: 0;
   border-radius: 0 0 18px 18px;
-}
+} */
 
 /* CV and Life buttons */
 .main-buttons {
