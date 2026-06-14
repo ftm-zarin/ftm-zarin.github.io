@@ -29,6 +29,8 @@ body {
   justify-content: center;
 
   padding: 6vh 20px;
+
+  transform: translateY(40px);
 }
 
 /* Avatar like the original template */
