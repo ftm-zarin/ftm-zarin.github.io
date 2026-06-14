@@ -8,27 +8,27 @@ layout: default
 </div>
 
 <style>
-/* Background only behind name and description */
-body > h1,
-body > h3 {
-  background: rgba(0, 0, 0, 0.38);
-  width: fit-content;
+
+  
+/* Background behind title and description */
+h1:first-of-type,
+h3:first-of-type {
+  display: inline-block !important;
+  background: rgba(0, 0, 0, 0.45) !important;
+  padding-left: 20px;
+  padding-right: 20px;
   max-width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 18px;
-  padding-right: 18px;
   backdrop-filter: blur(4px);
 }
 
-body > h1 {
+h1:first-of-type {
   padding-top: 12px;
   padding-bottom: 4px;
   margin-bottom: 0;
   border-radius: 18px 18px 0 0;
 }
 
-body > h3 {
+h3:first-of-type {
   padding-top: 4px;
   padding-bottom: 12px;
   margin-top: 0;
@@ -51,7 +51,7 @@ body > h3 {
   justify-content: center;
   align-items: center;
 
-  width: 100px;
+  width: 140px;
   height: 42px;
 
   border: 2px solid white;
