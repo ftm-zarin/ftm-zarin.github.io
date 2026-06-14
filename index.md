@@ -4,10 +4,36 @@ layout: default
 
 <div class="main-buttons">
   <a class="main-button" href="{{ '/assets/cv/your-name-cv.pdf' | relative_url }}" target="_blank">CV</a>
-  <a class="main-button" href="{{ '/life/' | relative_url }}">Small Things</a>
+  <a class="main-button" href="{{ '/life/' | relative_url }}">Life</a>
 </div>
 
 <style>
+body > h1,
+body > h3 {
+  background: rgba(0, 0, 0, 0.35);
+  width: fit-content;
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 18px;
+  padding-right: 18px;
+  backdrop-filter: blur(4px);
+}
+
+body > h1 {
+  padding-top: 12px;
+  padding-bottom: 4px;
+  margin-bottom: 0;
+  border-radius: 18px 18px 0 0;
+}
+
+body > h3 {
+  padding-top: 4px;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-radius: 0 0 18px 18px;
+}
+
 .main-buttons {
   margin: 28px auto 0 auto;
   width: fit-content;
