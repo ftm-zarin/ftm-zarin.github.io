@@ -93,12 +93,12 @@ body {
   margin-bottom: 0;
 
   font-family: 'Inter', sans-serif;
-  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  font-size: clamp(0.82rem, 1.15vw, 1.05rem);
   font-weight: 400;
-  line-height: 1.65;
-  letter-spacing: 0.01em;
+  line-height: 1.35;
+  letter-spacing: 0.005em;
 }
-
+  
 /* CV and Life buttons */
 .main-buttons {
   margin-top: 24px;
