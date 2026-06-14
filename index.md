@@ -43,10 +43,10 @@ body {
   object-fit: cover;
   object-position: center;
 
-  border: 3px solid white;
+  border: 2px solid white;
   box-sizing: border-box;
 
-  margin: 0 auto 28px auto !important;
+  margin: 60px auto 28px auto !important;
 }
 
 /* One soft box behind only name + description */
