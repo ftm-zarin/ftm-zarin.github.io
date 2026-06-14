@@ -9,9 +9,18 @@ layout: default
 
 <style>
 
-  .avatar {
+.avatar {
   display: block;
+  width: 220px;
+  height: 220px;
   margin: 0 auto 28px auto !important;
+
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+
+  border: 5px solid white;
+  box-sizing: border-box;
 }
 
 .title-card {
