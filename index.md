@@ -8,6 +8,7 @@ layout: default
 </div>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap');
 html,
 body {
   min-height: 100%;
@@ -78,13 +79,24 @@ body {
 
 .title-card h1 {
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
+
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(3.2rem, 7vw, 6rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1;
 }
 
 .title-card h3 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.35;
+
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
 }
 
 /* CV and Life buttons */
