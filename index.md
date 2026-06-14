@@ -100,14 +100,16 @@ body {
 }
   
 /* CV and Life buttons */
-.main-buttons {
+
+  .main-buttons {
   margin-top: 24px;
+  margin-bottom: 28px;
   width: 100%;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 18px;
   flex-wrap: wrap;
 }
 
