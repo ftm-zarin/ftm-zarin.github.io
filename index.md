@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-
 <div class="main-buttons">
-  <a class="main-button" href="{{ '/assets/cv/CV_Fatemeh.pdf' | relative_url }}" target="_blank">CV</a>
-  <a class="main-button" href="{{ '/Personal/' | relative_url }}">Personal</a>
+  <a class="main-button" href="{{ '/assets/cv/your-name-cv.pdf' | relative_url }}" target="_blank">CV</a>
+  <a class="main-button" href="{{ '/research/' | relative_url }}">Research</a>
+  <a class="main-button" href="{{ '/personal/' | relative_url }}">Personal</a>
 </div>
 
 <style>
