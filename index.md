@@ -9,7 +9,7 @@ layout: default
 
 <style>
   /* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap'); */
-  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Inter:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@300;400;500&display=swap');
 html,
 body {
   min-height: 100%;
@@ -83,7 +83,7 @@ body {
   margin-bottom: 18px;
 
   /* font-family: 'Cormorant Garamond', serif; */
-  font-family: 'Lora', serif;
+  font-family: 'Fraunces', serif;
   font-size: clamp(3.2rem, 7vw, 6rem);
   font-weight: 500;
   letter-spacing: 0.03em;
