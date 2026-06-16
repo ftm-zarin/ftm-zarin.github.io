@@ -81,7 +81,8 @@ body {
   margin-top: 0;
   margin-bottom: 18px;
 
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Lora', serif;
   font-size: clamp(3.2rem, 7vw, 6rem);
   font-weight: 500;
   letter-spacing: 0.03em;
