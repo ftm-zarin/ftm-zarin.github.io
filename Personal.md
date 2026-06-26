@@ -6,5 +6,5 @@ permalink: /personal/
 
 # Personal
 
-A small collection of moments, places, and things that make life feel meaningful.
+A small collection of moments, places, and things that make life feel meaningful. <br>
 This page will be completed soon.
