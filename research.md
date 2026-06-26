@@ -25,9 +25,6 @@ permalink: /research/
     sequential machine-learning computations verifiable while keeping the
     verifier efficient.
   </p>
-  <p class="research-links">
-    <a href="https://eprint.iacr.org/2026/073.pdf" target="_blank">ePrint</a>
-  </p>
   <p class="research-advisors">
     Advisors: Dr. Behzad Abdolmaleki and Dr. Shahram Khazaei
   </p>
@@ -66,7 +63,7 @@ permalink: /research/
     democracy settings.
   </p>
   <p>
-    I also conducted a pilot study to test the system and gather preliminary
+    We also conducted a pilot study to test the system and gather preliminary
     feedback on the user experience.
   </p>
   <p class="research-advisors">
