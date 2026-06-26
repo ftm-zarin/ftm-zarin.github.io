@@ -1,3 +1,10 @@
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+
 <section class="research-page">
 
 <h1>Research</h1>
@@ -13,10 +20,10 @@
     The University of Sheffield & Sharif University of Technology
   </p>
   <p>
-    I worked on cryptographic protocols for generating succinct
-    zero-knowledge proofs for recurrent neural network inference. The goal
-    was to make sequential machine-learning computations verifiable while
-    keeping the verifier efficient.
+    I worked on cryptographic protocols for generating succinct zero-knowledge
+    proofs for recurrent neural network inference. The goal was to make
+    sequential machine-learning computations verifiable while keeping the
+    verifier efficient.
   </p>
   <p class="research-links">
     <a href="https://eprint.iacr.org/2026/073.pdf" target="_blank">ePrint</a>
@@ -79,8 +86,7 @@
   </p>
   <p>
     During this work, I identified a completeness issue in an IEEE TIFS 2023
-    verifiable aggregation protocol and proposed a fix to restore
-    completeness.
+    verifiable aggregation protocol and proposed a fix to restore completeness.
   </p>
   <p class="research-links">
     <a href="https://ftm-zarin.github.io/portfolio/assets/files/On_compeletness_of_EVP.pdf" target="_blank">Manuscript</a>
